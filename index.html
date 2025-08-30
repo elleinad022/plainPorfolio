@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+  </head>
+  <body>
+    <nav id="desktopNav">
+      <div class="logo">KRIS</div>
+      <div>
+        <ul class="navMenu">
+          <li><a href="#home" class="navLinks">Home</a></li>
+          <li><a href="#about" class="navLinks">About</a></li>
+          <li>
+            <a href="#projects" class="navLinks">Projects</a>
+          </li>
+          <li>
+            <a href="#experience" class="navLinks">Experience</a>
+          </li>
+          <li>
+            <a href="#contact" class="navLinks">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburgerNav">
+      <div class="logo">KRIS</div>
+      <div class="hamburgerMenu">
+        <div class="hamburgerIcon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="burgerNavMenu">
+          <li>
+            <a href="#home" class="navLinks" onclick="toggleMenu()">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="navLinks" onclick="toggleMenu()">About</a>
+          </li>
+          <li>
+            <a href="#projects" class="navLinks" onclick="toggleMenu()"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#experience" class="navLinks" onclick="toggleMenu()"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="navLinks" onclick="toggleMenu()"
+              >Contact</a
+            >
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <script src="script.js"></script>
+  </body>
+</html>
