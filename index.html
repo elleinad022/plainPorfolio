@@ -14,13 +14,13 @@
       <div class="logo">KRIS</div>
       <div>
         <ul class="navMenu">
-          <li><a href="#home" class="navLinks">Home</a></li>
+          <li><a href="#hero" class="navLinks">Home</a></li>
           <li><a href="#about" class="navLinks">About</a></li>
           <li>
-            <a href="#projects" class="navLinks">Projects</a>
+            <a href="#skills" class="navLinks">Skills</a>
           </li>
           <li>
-            <a href="#experience" class="navLinks">Experience</a>
+            <a href="#projects" class="navLinks">Projects</a>
           </li>
           <li>
             <a href="#contact" class="navLinks">Contact</a>
@@ -44,13 +44,11 @@
             <a href="#about" class="navLinks" onclick="toggleMenu()">About</a>
           </li>
           <li>
-            <a href="#projects" class="navLinks" onclick="toggleMenu()"
-              >Projects</a
-            >
+            <a href="#skills" class="navLinks" onclick="toggleMenu()">Skills</a>
           </li>
           <li>
-            <a href="#experience" class="navLinks" onclick="toggleMenu()"
-              >Experience</a
+            <a href="#projects" class="navLinks" onclick="toggleMenu()"
+              >Projects</a
             >
           </li>
           <li>
@@ -61,7 +59,310 @@
         </div>
       </div>
     </nav>
+    <section id="hero">
+      <div class="sectionPicContainer">
+        <img src="./assets/profile-pic.png" alt="Kris Profile Picture" />
+      </div>
+      <div class="sectionText">
+        <p class="sectionTextp1">Hello, I'm</p>
+        <h1 class="title">Kris Danielle Santiago</h1>
+        <p class="sectionTextp2">BS Computer Engineering (2025)</p>
+        <div class="btnContainer">
+          <button
+            class="btn btnColor2"
+            onclick="window.open('./assets/resume-example.pdf')">
+            Download CV
+          </button>
+          <button class="btn btnColor1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socialsContainer">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/kris-danielle-santiago-336787341'" />
+          <img
+            src="./assets/github.png"
+            alt="My github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/elleinad022'" />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="sectionTextp1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="sectionContainer">
+        <div class="sectionPicContainer">
+          <img
+            src="assets/about-pic.png"
+            alt="Profile Picture"
+            class="aboutPic" />
+        </div>
+        <div class="aboutDetailsContainer">
+          <div class="aboutContainers">
+            <div class="detailsContainer">
+              <img
+                src="assets/experience.png"
+                alt="Experience Icon"
+                class="icon" />
+              <h3>Experience</h3>
+              <p>
+                January 2025 to May 2025 <br />
+                ITO Tech Support Intern - DepEd SDO Pampanga
+              </p>
+            </div>
+            <div class="detailsContainer">
+              <img
+                src="assets/education.png"
+                alt="Education Icon"
+                class="icon" />
+              <h3>Education</h3>
+              <p>
+                Bachelor of Science in Computer Engineering<br />
+                Pampanga State University
+              </p>
+            </div>
+          </div>
+          <div class="textContainer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis provident qui fugiat, tempora delectus alias aut vel
+              magni velit aliquid, porro laudantium deserunt blanditiis
+              suscipit? Cumque, eveniet velit aliquam quaerat officia similique
+              quo facere excepturi culpa eligendi sed deleniti laboriosam
+              quidem? Ab numquam quas architecto illum, officia quasi. Cumque,
+              fugiat.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/arrow.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href = '#skills'" />
+    </section>
+    <section id="skills">
+      <p class="sectionTextp1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skillsDetailsContainer">
+        <div class="aboutContainers">
+          <div class="detailsContainers">
+            <h2 class="skillsSubtitle">Frontend Development</h2>
+            <div class="articleContainer">
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon" />
+                <div>
+                  <h3>JAVASCRIPT</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon" />
+                <div>
+                  <h3>ReactJS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon" />
+                <div>
+                  <h3>TAILWIND</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
 
+          <div class="detailsContainers">
+            <h2 class="skillsSubtitle">Backend Development</h2>
+            <div class="articleContainer">
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon" />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon" />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon" />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="detailsContainers">
+            <h2 class="skillsSubtitle">Tools/Others</h2>
+            <div class="articleContainer">
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon" />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon" />
+                <div>
+                  <h3>Github</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon" />
+                <div>
+                  <h3>Visual Studio Code</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/checkmark.png"
+                  alt="Skills Icon"
+                  class="icon" />
+                <div>
+                  <h3>Arduino IDE</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='/#skills'" />
+    </section>
+    <section class="projects">
+      <p class="sectionTextp1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="skillsDetailsContainer">
+        <div class="detailsContainers colorContainer">
+          <div class="articleContainer">
+            <img
+              src="assets/project-1.png"
+              alt="Project 1"
+              class="projectImg" />
+          </div>
+          <h2 class="skillsSubtitle projectTitle">Project One</h2>
+          <div class="btnContainer">
+            <button
+              class="btn btnColor2 projectBtn"
+              onclick="location.href='https://github.com/elleinad022'">
+              Github
+            </button>
+            <button
+              class="btn btnColor2 projectBtn"
+              onclick="location.href='https://github.com/elleinad022'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="detailsContainers colorContainer">
+          <div class="articleContainer">
+            <img
+              src="assets/project-1.png"
+              alt="Project 1"
+              class="projectImg" />
+          </div>
+          <h2 class="skillsSubtitle projectTitle">Project One</h2>
+          <div class="btnContainer">
+            <button
+              class="btn btnColor2 projectBtn"
+              onclick="location.href='https://github.com/elleinad022'">
+              Github
+            </button>
+            <button
+              class="btn btnColor2 projectBtn"
+              onclick="location.href='https://github.com/elleinad022'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="detailsContainers colorContainer">
+          <div class="articleContainer">
+            <img
+              src="assets/project-1.png"
+              alt="Project 1"
+              class="projectImg" />
+          </div>
+          <h2 class="skillsSubtitle projectTitle">Project One</h2>
+          <div class="btnContainer">
+            <button
+              class="btn btnColor2 projectBtn"
+              onclick="location.href='https://github.com/elleinad022'">
+              Github
+            </button>
+            <button
+              class="btn btnColor2 projectBtn"
+              onclick="location.href='https://github.com/elleinad022'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
