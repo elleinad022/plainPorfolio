@@ -194,6 +194,14 @@ section {
     background-color: var(--theme1col3);
 }
 
+#hero .title {
+    color: var(--theme1col2);
+}
+
+#hero p {
+    color: #F5F5F5;
+}
+
 .sectionPicContainer {
     display: flex;
     height: 400px;
@@ -454,4 +462,19 @@ article .icon {
 
 .emailIcon {
     height: 2.5rem;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: var(--theme1col3);
+    height: 26vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: var(--theme1col4);
+    font-size: 1.15rem;
 }

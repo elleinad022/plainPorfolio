@@ -1,3 +1,14 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .aboutContainers {
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #desktopNav {
         display: none;
@@ -5,6 +16,100 @@
 
     #hamburgerNav {
         display: flex;
-        
+    }
+
+    #skills,
+    .skillsDetailsContainer {
+        margin-top: 2rem;
+    }
+
+    #hero,
+    .sectionContainer {
+        display: block;
+        padding: 2rem 10rem;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section,
+    .sectionContainer {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .sectionPicContainer {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .aboutContainers {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #contact,
+    footer {
+        height: 20vh;
+    }
+
+    footer p {
+        font-size: 0.85rem;
+    }
+
+    #hero {
+        height: 83vh;
+        margin-bottom: 0;
+        padding: 4vh 0 0 0;
+
+    }
+
+    article {
+        font-size: 1rem;
+    }
+
+    .aboutContainers,
+    .contactInfoUpperContainer,
+    .btnContainer {
+        flex-wrap: wrap;
+    }
+
+    .contactInfoContainer {
+        margin: 0;
+    }
+
+    .contactInfoContainer p,
+    .navLinks li a {
+        font-size: 1rem;
+    }
+
+    .skillsSubtitle {
+        font-size: 1.25rem;
+    }
+
+    .sectionPicContainer {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+
+    }
+
+    .sectionTextp2 {
+        font-size: 1.25rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .textContainer {
+        text-align: justify;
     }
 }
