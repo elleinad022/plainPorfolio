@@ -20,13 +20,13 @@
 
     #skills,
     .skillsDetailsContainer {
-        margin-top: 2rem;
+        padding-top: 2rem;
     }
 
     #hero,
     .sectionContainer {
         display: block;
-        padding: 2rem 10rem;
+        padding: 2rem 0;
     }
 
     .arrow {
@@ -39,7 +39,7 @@
     }
 
     section {
-        margin: 0 5%;
+        padding: 5%;
     }
 
     .sectionPicContainer {

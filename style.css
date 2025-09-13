@@ -3,10 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap');
 
 :root {
-    --theme1col1: #363062;
-    --theme1col2: #F99417;
-    --theme1col3: #4D4C7D;
-    --theme1col4: #F5F5F5;
+    --theme1col1: #BB86FC;
+    --theme1col2: #00DBC6;
+    --theme1col3: #171717;
+    --theme1col4: #242424;
+    --theme1col5: #FFFFFF;
+    --theme1col6: #B3B2B1;
+    --theme1col7: #3C3C3C;
 }
 
 * {
@@ -27,7 +30,11 @@ body {
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color: var(--theme1col6);
+}
+
+h3 {
+    color: var(--theme1col5);
 }
 
 /* TRANSITION */
@@ -49,7 +56,7 @@ nav,
 }
 
 nav {
-    background-color: var(--theme1col1);
+    background-color: var(--theme1col4);
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
@@ -64,20 +71,20 @@ nav {
 }
 
 .navLinks {
-    color: var(--theme1col4);
+    color: var(--theme1col5);
     text-decoration: none;
-    text-decoration-color: var(--theme1col2);
+    text-decoration-color: var(--theme1col1);
 }
 
 .navLinks:hover {
-    color: var(--theme1col2);
+    color: var(--theme1col1);
     text-decoration: underline;
     text-underline-offset: 0.8rem;
-    text-decoration-color: var(--theme1col2);
+    text-decoration-color: var(--theme1col1);
 }
 
 .logo {
-    color: var(--theme1col4);
+    color: var(--theme1col5);
     font-size: 2rem;
 }
 
@@ -108,7 +115,7 @@ nav {
 .hamburgerIcon span {
     width: 100%;
     height: 2px;
-    background-color: var(--theme1col4);
+    background-color: var(--theme1col1);
     transition: all 0.3s ease-in-out;
 }
 
@@ -131,7 +138,7 @@ nav {
 }
 
 .burgerNavMenu.open {
-    background-color: var(--theme1col3);
+    background-color: var(--theme1col4);
     max-height: 350px;
 }
 
@@ -166,7 +173,7 @@ nav {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: var(--theme1col4);
+    color: var(--theme1col5);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
@@ -174,11 +181,10 @@ nav {
 /* SECTIONS */
 
 section {
-
     height: 92vh;
-    margin: 0 10rem;
     min-height: fit-content;
-    padding-top: 5rem;
+    padding: 5rem 10rem 0 10rem;
+    background-color: var(--theme1col3)
 }
 
 .sectionContainer,
@@ -190,12 +196,11 @@ section {
     justify-content: center;
     gap: 5rem;
     margin: 0;
-    padding: 0 10rem;
-    background-color: var(--theme1col3);
+    ;
 }
 
 #hero .title {
-    color: var(--theme1col2);
+    color: var(--theme1col5);
 }
 
 #hero p {
@@ -230,6 +235,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    color: var(--theme1col5);
 }
 
 #socialsContainer {
@@ -275,16 +281,19 @@ section {
 
 .btnColor1,
 .btnColor2:hover {
-    background-color: var(--theme1col3);
+
+    background-color: var(--theme1col1);
     color: var(--theme1col4);
 }
 
 .btnColor1:hover {
-    background-color: var(--theme1col1);
+    background-color: var(--theme1col4);
+    color: var(--theme1col5);
 }
 
 .btnColor2 {
-    background: none;
+    background-color: var(--theme1col4);
+    color: var(--theme1col5);
 }
 
 .btnColor2:hover {
@@ -299,6 +308,7 @@ section {
 
 #about {
     position: relative;
+    background-color: var(--theme1col4);
 }
 
 .aboutContainers {
@@ -322,17 +332,21 @@ section {
 
 .arrow {
     position: absolute;
-    right: -5rem;
+    right: 5rem;
     bottom: 2.5rem;
 }
 
 .detailsContainers {
     padding: 1.5rem;
     flex: 1;
-    background: var(--theme1col3);
+    background: var(--theme1col4);
     border-radius: 2rem;
     border: var(--theme1col1) 0.1rem solid;
     text-align: center;
+}
+
+.aboutCard {
+    background-color: var(--theme1col7);
 }
 
 .sectionContainer {
@@ -353,7 +367,7 @@ section {
 }
 
 .skillsSubtitle {
-    color: var(--theme1col2);
+    color: var(--theme1col1);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -389,11 +403,12 @@ article .icon {
 
 #projects {
     position: relative;
+    background-color: var(--theme1col4);
 }
 
 .colorContainer {
-    border-color: var(--theme1col2);
-    background: var(--theme1col3);
+    border-color: var(--theme1col1);
+    background: var(--theme1col7);
 }
 
 .projectImg {
@@ -404,12 +419,12 @@ article .icon {
 
 .projectTitle {
     margin: 1rem;
-    color: var(--theme1col4);
+    color: var(--theme1col5);
 }
 
 .projectBtn {
-    color: var(--theme1col4);
-    border-color: var(--theme1col2);
+    color: var(--theme1col5);
+    border-color: var(--theme1col1);
 }
 
 /* Contact Section */
@@ -439,9 +454,10 @@ article .icon {
     border-radius: 2rem;
     border: var(--theme1col2) 0.1rem solid;
     border-color: var(--theme1col3);
-    background: (250, 250, 250);
+    background: rgb(250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
+    gap: 2rem;
 }
 
 .contactInfoContainer {
@@ -467,7 +483,7 @@ article .icon {
 /* Footer Section */
 
 footer {
-    background-color: var(--theme1col3);
+    background-color: var(--theme1col4);
     height: 26vh;
     display: flex;
     justify-content: center;
@@ -475,6 +491,6 @@ footer {
 }
 
 footer p {
-    color: var(--theme1col4);
+    color: var(--theme1col6);
     font-size: 1.15rem;
 }
