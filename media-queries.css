@@ -1,115 +1,119 @@
 @media screen and (max-width: 1400px) {
-    #profile {
-        height: 83vh;
-        margin-bottom: 6rem;
-    }
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
 
-    .aboutContainers {
-        flex-wrap: wrap;
-    }
+  .aboutContainers {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-    #desktopNav {
-        display: none;
-    }
+  #desktopNav {
+    display: none;
+  }
 
-    #hamburgerNav {
-        display: flex;
-    }
+  #hamburgerNav {
+    display: flex;
+  }
 
-    #skills,
-    .skillsDetailsContainer {
-        padding-top: 2rem;
-    }
+  #skills,
+  .skillsDetailsContainer {
+    padding-top: 2rem;
+  }
 
-    #hero,
-    .sectionContainer {
-        display: block;
-        padding: 2rem 0;
-    }
+  #hero,
+  .sectionContainer {
+    display: block;
+    padding: 2rem 0;
+  }
 
-    .arrow {
-        display: none;
-    }
+  .arrow {
+    display: none;
+  }
 
-    section,
-    .sectionContainer {
-        height: fit-content;
-    }
+  section,
+  .sectionContainer {
+    height: fit-content;
+  }
 
-    section {
-        padding: 5%;
-    }
+  section {
+    padding: 5%;
+  }
 
-    .sectionPicContainer {
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
-    }
+  .sectionPicContainer {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
 
-    .aboutContainers {
-        margin-top: 0;
-    }
+  .aboutContainers {
+    margin-top: 0;
+  }
+
+  .aboutText {
+    margin: 0 4rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 20vh;
+  }
 
-    #contact,
-    footer {
-        height: 20vh;
-    }
+  footer p {
+    font-size: 0.85rem;
+  }
 
-    footer p {
-        font-size: 0.85rem;
-    }
+  #hero {
+    height: 83vh;
+    margin-bottom: 0;
+    padding: 4vh 0 0 0;
+  }
 
-    #hero {
-        height: 83vh;
-        margin-bottom: 0;
-        padding: 4vh 0 0 0;
+  article {
+    font-size: 1rem;
+  }
 
-    }
+  .aboutContainers,
+  .contactInfoUpperContainer,
+  .btnContainer {
+    flex-wrap: wrap;
+  }
 
-    article {
-        font-size: 1rem;
-    }
+  .contactInfoContainer {
+    margin: 0;
+  }
 
-    .aboutContainers,
-    .contactInfoUpperContainer,
-    .btnContainer {
-        flex-wrap: wrap;
-    }
+  .contactInfoContainer p,
+  .navLinks li a {
+    font-size: 1rem;
+  }
 
-    .contactInfoContainer {
-        margin: 0;
-    }
+  .skillsSubtitle {
+    font-size: 1.25rem;
+  }
 
-    .contactInfoContainer p,
-    .navLinks li a {
-        font-size: 1rem;
-    }
+  .sectionPicContainer {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
 
-    .skillsSubtitle {
-        font-size: 1.25rem;
-    }
+  .sectionTextp2 {
+    font-size: 1.25rem;
+  }
 
-    .sectionPicContainer {
-        width: auto;
-        height: 46vw;
-        justify-content: center;
+  .title {
+    font-size: 2rem;
+  }
 
-    }
-
-    .sectionTextp2 {
-        font-size: 1.25rem;
-    }
-
-    .title {
-        font-size: 2rem;
-    }
-
-    .textContainer {
-        text-align: justify;
-    }
+  .textContainer {
+    text-align: justify;
+  }
+  .aboutText {
+    margin: 0;
+  }
 }
